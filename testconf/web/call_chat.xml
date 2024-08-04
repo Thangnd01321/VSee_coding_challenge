@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Test" verbose="1"
+       parallel="classes" thread-count="4" configfailurepolicy="continue">
+    <test name="VSee call chat test" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="test.patient.PatientTest">
+                <parameter name="browser" value="chrome"/>
+                <parameter name="providerId" value="1"/>
+                <parameter name="patientId" value="1"/>
+            </class>
+            <class name="test.provider.ProviderTest">
+                <parameter name="browser" value="chrome"/>
+                <parameter name="patientId" value="1"/>
+                <parameter name="providerId" value="1"/>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "id": 1,
+      "username": "Thang Nguyen",
+      "email": "thangnguyen01321@gmail.com",
+      "password": "userPass123@"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "username": "Patient 01"
+    },
+    {
+      "id": 2,
+      "username": "Patient 02"
+    }
+  ]
+}

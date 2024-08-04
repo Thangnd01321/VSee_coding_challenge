@@ -1,0 +1,36 @@
+{
+  "chat_log": [
+    {
+      "username": "Thang Nguyen",
+      "message": "Hello, how can I help you today?"
+    },
+    {
+      "username": "Patient 01",
+      "message": "I want to talk about my recent symptoms."
+    },
+    {
+      "username": "Thang Nguyen",
+      "message": "Sure, please go ahead and describe your symptoms."
+    },
+    {
+      "username": "Patient 01",
+      "message": "I've been feeling very tired and have had a persistent cough for the past few days."
+    },
+    {
+      "username": "Thang Nguyen",
+      "message": "I see. Have you experienced any fever or difficulty breathing?"
+    },
+    {
+      "username": "Patient 01",
+      "message": "No, just the cough and tiredness."
+    },
+    {
+      "username": "Thang Nguyen",
+      "message": "Alright. I recommend resting, staying hydrated, and monitoring your symptoms. If they persist or worsen, please visit a clinic for a thorough check-up."
+    },
+    {
+      "username": "Patient 01",
+      "message": "Thank you, I will do that."
+    }
+  ]
+}
