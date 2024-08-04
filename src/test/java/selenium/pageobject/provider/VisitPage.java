@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import selenium.core.WebLocator;
 import selenium.pageobject.common.CommonPage;
 
-public class VisitPage extends CommonPage<VisitPage> {
+public class VisitPage extends ProviderCommonPage<VisitPage> {
   Page page;
 
   public VisitPage() {

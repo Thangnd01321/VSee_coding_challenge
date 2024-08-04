@@ -1,5 +1,6 @@
 package utils.settings;
 
+import com.aventstack.extentreports.ExtentTest;
 import io.cucumber.java.Scenario;
 
 import java.nio.file.Path;
@@ -22,5 +23,6 @@ public class TestConfig {
       Paths.get(TARGET_PATH.toString(), "cucumber-reports");
   // Execution scenario
   public static ThreadLocal<Scenario> scenario = new ThreadLocal<Scenario>();
+  public static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
   public static String testID;
 }
