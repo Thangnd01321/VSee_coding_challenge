@@ -48,11 +48,12 @@ To execute the video call and webchat tests, follow these steps:
 ### Running the Tests
 
 1. **Run Video Call and Webchat Tests:**
-   - Open `testconf/web/call_chat.xml` to `{hub_url}` then execute the following Maven command to run the tests:
+   - Open `testconf/web/call_chat.xml` to update parameter `{hub_url}` then execute the following Maven command to run the tests:
      ```bash
      mvn clean test -Dsurefire.suiteXmlFiles=testconf/web/call_chat.xml
      ```
    - The test results can be found in the `target/ExtentReport.html` file.
+   - Notes: The test will only run on Chrome browser
 
 2. **Run API Tests:**
    - Execute the following Maven command to run the API tests:
